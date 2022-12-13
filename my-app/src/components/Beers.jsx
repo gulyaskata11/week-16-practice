@@ -1,11 +1,11 @@
 import React from 'react'
 import Beer from './Beer';
 
-function Beers({beers, filter, sortBy}) {
+function Beers({beers}) {
   
     return (
       <div >
-         {beers.filter(beer => beer.name.toLowerCase().includes(filter.toLowerCase())).map((beer, index) => <Beer key={index} beerData={beer} />)}
+         {beers.map((beer, index) => <Beer key={index} beerData={beer} />)}
       </div>
     );
   }

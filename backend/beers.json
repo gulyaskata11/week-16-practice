@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Skull Candy",
+      "tagline": "Pacific Hopped Amber Bitter.",
+      "abv": 3.5
+    },
+    {
+        "name": "Hazy Jane",
+        "tagline": "New England IPA.",
+        "abv": 7.2
+    },
+    {
+        "name": "77 Lager",
+        "tagline": "Artisan Rebel Pilsner.",
+        "abv": 4.9
+    },
+    {
+        "name": "Hazy Jane Rye Barrel Aged",
+        "tagline": "Bourbon Barrel Vermont IPA.",
+        "abv": 7.2
+    },
+    {
+        "name": "Beatnik",
+        "tagline": "Imperial Red Ale",
+        "abv": 8
+    }
+  ]
