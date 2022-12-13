@@ -1,8 +1,8 @@
 [
     {
-      "name": "Skull Candy",
-      "tagline": "Pacific Hopped Amber Bitter.",
-      "abv": 3.5
+        "name": "Skull Candy",
+        "tagline": "Pacific Hopped Amber Bitter.",
+        "abv": 3.5
     },
     {
         "name": "Hazy Jane",
@@ -23,5 +23,15 @@
         "name": "Beatnik",
         "tagline": "Imperial Red Ale",
         "abv": 8
+    },
+    {
+        "name": "Science IPA",
+        "tagline": "India Pale Ale",
+        "abv": 5
+    },
+    {
+        "name": "Slot Machine",
+        "tagline": "Red Rye IPA.",
+        "abv": 5
     }
-  ]
+]

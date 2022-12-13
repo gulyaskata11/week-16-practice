@@ -17,9 +17,16 @@ function App() {
   }
 
   const addBeer = () => {
-    console.log(name)
-    console.log(tagline)
-    console.log(abv)
+    fetch("/beers/add", {
+      method: 'POST',
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({"name":name, "tagline": tagline, "abv": abv}) 
+    })
+      .then(res => res.json())
+      .then(data => {
+        console.log(data)
+        fetchBeers()
+      })
   }
 
   useEffect(() => {
